@@ -95,7 +95,7 @@ class AccountHomework01Tests {
 			// The Datasource contains information about the connection to your database. You will need it @Autowired
 			// in to use when configuring the authentication manager.
 			Field datasourceField = assertFieldExists(
-					"Add the field \"@Autowried Datasource dataSource;\" to SecurityConfiguration",
+					"Add the field \"@Autowired Datasource dataSource;\" to SecurityConfiguration",
 					"com.cybr406.account.configuration.SecurityConfiguration",
 					DataSource.class,
 					"dataSource");
