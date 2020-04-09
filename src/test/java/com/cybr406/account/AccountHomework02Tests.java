@@ -137,7 +137,6 @@ public class AccountHomework02Tests {
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(signUpA)))
                 .andExpect(status().isCreated());
-
     }
 
     // Prevent users from altering profiles that don't belong to them with @PreAuthorize
