@@ -216,7 +216,7 @@ class AccountHomework01Tests {
 		 * in our security settings can help mitigate the problem.
 		 *
 		 * Inside configure(HttpSecurity http) you need to add:
-		 *     .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+		 *
 		 */
 		@Test
 		public void problem_07_disableSessions(@Autowired TestRestTemplate restTemplate) throws Exception {
